@@ -57,7 +57,6 @@ h1 {
 }
 
 .giftImage1:hover,
-.giftImage1:focus,
 .giftImage1:active {
   background-image: url("./assets/salma.jpg");
   background-size: cover;
