@@ -1,0 +1,90 @@
+@import url("http://fonts.cdnfonts.com/css/kg-why-you-gotta-be-so-mean");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "KG WhY yOu GoTtA Be So MeAn", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgb(127, 127, 206), rgb(180, 91, 91));
+  color: white;
+}
+
+.header {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.header img {
+  width: 300px;
+  padding: 30px 0;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.giftOne {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.giftImage1 {
+  height: 300px;
+  width: 300px;
+  background-image: url("./assets/gift.jfif");
+  background-size: cover;
+  border: solid 5px lightblue;
+}
+.giftImage1:hover {
+  background-image: url("./assets/salma.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.giftImage2 {
+  height: 300px;
+  width: 300px;
+  background-image: url("./assets/gift.jfif");
+  background-size: cover;
+  border: solid 5px lightblue;
+}
+.giftImage2:hover {
+  background-image: url("./assets/smart.jfif");
+  background-size: cover;
+  background-position: center;
+}
+.giftImage3 {
+  height: 300px;
+  width: 300px;
+  background-image: url("./assets/gift.jfif");
+  background-size: cover;
+  border: solid 5px lightblue;
+}
+.giftImage3:hover {
+  background-image: url("./assets/amelia.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+.footer h2 {
+  padding-bottom: 30px;
+}
