@@ -8,6 +8,7 @@
 body {
   background-image: linear-gradient(rgb(127, 127, 206), rgb(180, 91, 91));
   color: white;
+  text-align: center;
 }
 
 .header {
