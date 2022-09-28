@@ -56,7 +56,8 @@ h1 {
   border: solid 5px lightblue;
 }
 
-.giftImage1:hover {
+.giftImage1:hover,
+.giftImage1:active {
   background-image: url("./assets/salma.jpg");
   background-size: cover;
   background-position: center;
