@@ -4,7 +4,15 @@
   padding: 0;
   font-family: "KG WhY yOu GoTtA Be So MeAn", sans-serif;
 }
-
+.noselect {
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 body {
   background-image: linear-gradient(rgb(127, 127, 206), rgb(180, 91, 91));
   color: white;
@@ -48,13 +56,12 @@ h1 {
   border: solid 5px lightblue;
 }
 
-.giftImage1:hover,
-.giftImage1:focus,
-.giftImage1:active {
+.giftImage1:hover {
   background-image: url("./assets/salma.jpg");
   background-size: cover;
   background-position: center;
 }
+
 .giftImage2 {
   height: 300px;
   width: 300px;
