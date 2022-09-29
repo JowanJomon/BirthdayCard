@@ -31,7 +31,7 @@ body {
 
 .header img {
   width: 300px;
-  padding: 30px 0;
+  padding: 0px 0px 20px 0px;
 }
 h1 {
   font-size: 40px;
@@ -100,9 +100,19 @@ h1 {
   padding-bottom: 30px;
 }
 
+/* For mobile phones: */
+
 @media only screen and (max-width: 768px) {
   body {
     padding: 5px 0px;
   }
-  /* For mobile phones: */
+  .header img {
+    width: 300px;
+    padding: 0px 0px 20px 0px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 }
