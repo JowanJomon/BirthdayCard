@@ -55,12 +55,12 @@ h1 {
   background-size: cover;
   border: solid 5px lightblue;
 }
-
+/* 
 .giftImage1:hover {
   background-image: url("./assets/salma.jpg");
   background-size: cover;
   background-position: center;
-}
+} */
 
 .giftImage2 {
   height: 300px;
